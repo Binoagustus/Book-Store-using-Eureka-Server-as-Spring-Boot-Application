@@ -1,0 +1,22 @@
+#server:
+#  port: 8001
+#
+#spring:
+#  datasource:
+#    dbcp2:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/bookstore
+#    username: root
+#    password: 1631
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#  application:
+#    name: USER-SERVICE
+#    
+#logging:
+#  level:
+#    com.bridgeLabz.usermicroservice.controller: debug          
+#  file:
+#    name:     
+#        
