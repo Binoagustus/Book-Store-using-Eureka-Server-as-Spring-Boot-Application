@@ -1,0 +1,125 @@
+2023-02-19 13:26:34.527  INFO 11028 --- [main] c.b.o.OrderMicroServiceApplication       : Starting OrderMicroServiceApplication using Java 17.0.6 on DESKTOP-Q5498LN with PID 11028 (E:\Eureka BookStore\OrderMicroService\target\classes started by binoa in E:\Eureka BookStore\OrderMicroService)
+2023-02-19 13:26:34.532  INFO 11028 --- [main] c.b.o.OrderMicroServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-19 13:26:35.332  INFO 11028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19 13:26:35.380  INFO 11028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2023-02-19 13:26:35.827  INFO 11028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-02-19 13:26:35.836  INFO 11028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19 13:26:35.836  INFO 11028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-19 13:26:35.960  INFO 11028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19 13:26:35.961  INFO 11028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1364 ms
+2023-02-19 13:26:36.212  INFO 11028 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19 13:26:36.261  INFO 11028 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-19 13:26:36.409  INFO 11028 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-19 13:26:36.510  INFO 11028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-19 13:26:36.810  INFO 11028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-19 13:26:36.837  INFO 11028 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-19 13:26:37.463  INFO 11028 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19 13:26:37.470  INFO 11028 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19 13:26:37.880  WARN 11028 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19 13:26:38.277  INFO 11028 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-19 13:26:38.319  INFO 11028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-02-19 13:26:38.332  INFO 11028 --- [main] c.b.o.OrderMicroServiceApplication       : Started OrderMicroServiceApplication in 4.211 seconds (JVM running for 4.908)
+2023-02-19 13:26:39.386  INFO 11028 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-19 13:26:39.386  INFO 11028 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-19 13:26:39.389  INFO 11028 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-19 14:04:44.444  INFO 11028 --- [RMI TCP Connection(43)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-19 14:04:44.484  INFO 11028 --- [RMI TCP Connection(43)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19 14:04:44.486  INFO 11028 --- [RMI TCP Connection(43)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-19 14:04:44.502  INFO 11028 --- [RMI TCP Connection(43)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19 14:04:44.509  INFO 11028 --- [RMI TCP Connection(43)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-19 14:04:44.515  INFO 11028 --- [RMI TCP Connection(43)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-19 15:03:15.252  INFO 4864 --- [main] c.b.o.OrderMicroServiceApplication       : Starting OrderMicroServiceApplication using Java 17.0.6 on DESKTOP-Q5498LN with PID 4864 (E:\Eureka BookStore\OrderMicroService\target\classes started by binoa in E:\Eureka BookStore\OrderMicroService)
+2023-02-19 15:03:15.256  INFO 4864 --- [main] c.b.o.OrderMicroServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-19 15:03:16.442  INFO 4864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19 15:03:16.521  INFO 4864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2023-02-19 15:03:17.490  INFO 4864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-02-19 15:03:17.505  INFO 4864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19 15:03:17.506  INFO 4864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-19 15:03:17.854  INFO 4864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19 15:03:17.855  INFO 4864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2495 ms
+2023-02-19 15:03:18.720  INFO 4864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19 15:03:18.829  INFO 4864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-19 15:03:19.147  INFO 4864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-19 15:03:19.343  INFO 4864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-19 15:03:19.937  INFO 4864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-19 15:03:20.009  INFO 4864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-19 15:03:21.279  INFO 4864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19 15:03:21.297  INFO 4864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19 15:03:22.042  WARN 4864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19 15:03:22.908  INFO 4864 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-19 15:03:22.996  INFO 4864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-02-19 15:03:23.038  INFO 4864 --- [main] c.b.o.OrderMicroServiceApplication       : Started OrderMicroServiceApplication in 8.506 seconds (JVM running for 9.51)
+2023-02-19 15:03:24.075  INFO 4864 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-19 15:03:24.076  INFO 4864 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-19 15:03:24.077  INFO 4864 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-19 15:03:51.980  INFO 4864 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-19 15:03:52.000  INFO 4864 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19 15:03:52.002  INFO 4864 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-19 15:03:52.012  INFO 4864 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19 15:03:52.015  INFO 4864 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-19 15:03:52.028  INFO 4864 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-19 17:15:45.904  INFO 14156 --- [main] c.b.o.OrderMicroServiceApplication       : Starting OrderMicroServiceApplication using Java 17.0.6 on DESKTOP-Q5498LN with PID 14156 (E:\Eureka BookStore\OrderMicroService\target\classes started by binoa in E:\Eureka BookStore\OrderMicroService)
+2023-02-19 17:15:45.907  INFO 14156 --- [main] c.b.o.OrderMicroServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-19 17:15:46.758  INFO 14156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19 17:15:46.887  INFO 14156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 2 JPA repository interfaces.
+2023-02-19 17:15:47.088  INFO 14156 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b0c13bdf-4a94-3cd6-bbc1-0d3247e885f5
+2023-02-19 17:15:47.448  INFO 14156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-02-19 17:15:47.456  INFO 14156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19 17:15:47.456  INFO 14156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-19 17:15:47.592  INFO 14156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19 17:15:47.592  INFO 14156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1628 ms
+2023-02-19 17:15:47.858  INFO 14156 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19 17:15:47.906  INFO 14156 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-19 17:15:48.075  INFO 14156 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-19 17:15:48.194  INFO 14156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-19 17:15:48.509  INFO 14156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-19 17:15:48.543  INFO 14156 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-19 17:15:49.175  INFO 14156 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19 17:15:49.185  INFO 14156 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19 17:15:49.564  WARN 14156 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19 17:15:50.311  INFO 14156 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-19 17:15:50.363  WARN 14156 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-19 17:15:50.368  INFO 14156 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-19 17:15:50.430  INFO 14156 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-19 17:15:50.464  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-02-19 17:15:50.468  INFO 14156 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 17:15:50.488  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-19 17:15:50.488  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-19 17:15:50.488  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-19 17:15:50.488  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-19 17:15:50.488  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-19 17:15:50.488  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-02-19 17:15:50.488  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-19 17:15:50.848  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-19 17:15:50.851  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-02-19 17:15:50.853  INFO 14156 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-19 17:15:50.858  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1676807150858 with initial instances count: 3
+2023-02-19 17:15:50.861  INFO 14156 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER-SERVICE with eureka with status UP
+2023-02-19 17:15:50.862  INFO 14156 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1676807150862, current=UP, previous=STARTING]
+2023-02-19 17:15:50.864  INFO 14156 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-Q5498LN:ORDER-SERVICE:8004: registering service...
+2023-02-19 17:15:50.893  INFO 14156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-02-19 17:15:50.894  INFO 14156 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8004
+2023-02-19 17:15:50.914  INFO 14156 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-Q5498LN:ORDER-SERVICE:8004 - registration status: 204
+2023-02-19 17:15:51.014  INFO 14156 --- [main] c.b.o.OrderMicroServiceApplication       : Started OrderMicroServiceApplication in 5.638 seconds (JVM running for 6.458)
+2023-02-19 17:15:52.001  INFO 14156 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-19 17:15:52.001  INFO 14156 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-19 17:15:52.003  INFO 14156 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-19 17:20:50.503  INFO 14156 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 17:25:50.506  INFO 14156 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 17:30:50.513  INFO 14156 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 17:35:50.529  INFO 14156 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 17:40:50.538  INFO 14156 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 17:45:50.545  INFO 14156 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 17:50:50.549  INFO 14156 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 17:55:50.569  INFO 14156 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-19 18:00:30.785  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-19 18:00:30.808  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER-SERVICE with eureka with status DOWN
+2023-02-19 18:00:30.809  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1676809830809, current=DOWN, previous=UP]
+2023-02-19 18:00:30.810  INFO 14156 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-Q5498LN:ORDER-SERVICE:8004: registering service...
+2023-02-19 18:00:30.829  INFO 14156 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-Q5498LN:ORDER-SERVICE:8004 - registration status: 204
+2023-02-19 18:00:30.915  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19 18:00:30.927  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-19 18:00:30.990  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19 18:00:31.026  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-19 18:00:31.041  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-19 18:00:31.047  INFO 14156 --- [RMI TCP Connection(51)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
