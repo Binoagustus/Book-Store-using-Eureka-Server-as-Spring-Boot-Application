@@ -1,0 +1,15 @@
+package com.bridgeLabz.bookmicroservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@SpringBootApplication
+@EnableEurekaClient
+public class BookMicroServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookMicroServiceApplication.class, args);
+	}
+
+}
